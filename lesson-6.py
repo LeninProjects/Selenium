@@ -19,6 +19,6 @@ driver.add_cookie({'name': 'MVID_CITY_ID',
                    'secure': False,
                    })
 driver.refresh()
-
+#
 cookie_after = driver.get_cookie('MVID_CITY_ID')
 print(cookie_after)

@@ -3,8 +3,8 @@ var config = {
     rules: {
       singleProxy: {
         scheme: "http",
-        host: "217.29.62.212",
-        port: parseInt(12082)
+        host: "217.29.63.240",
+        port: parseInt(14164)
       },
       bypassList: ["foobar.com"]
     }
@@ -15,8 +15,8 @@ chrome.proxy.settings.set({value: config, scope: "regular"}, function() {});
 function callbackFn(details) {
     return {
         authCredentials: {
-            username: "hnDhYe",
-            password: "81f0sw"
+            username: "H096Gx",
+            password: "z3GFMU"
         }
     };
 }

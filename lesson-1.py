@@ -8,10 +8,10 @@ driver = webdriver.Firefox()
 driver.get("http://www.google.com")
 
 # Get search box element from webElement 'q' using Find Element
-# search_box = driver.find_element(By.NAME, "q")
-#
-# search_box.send_keys("webdriver")
-# time.sleep(10)
+search_box = driver.find_element(By.NAME, "q")
+
+search_box.send_keys("webdriver")
+time.sleep(10)
 html = driver.page_source
 print(html)
 driver.close()

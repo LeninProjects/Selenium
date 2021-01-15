@@ -1,0 +1,11 @@
+/venv/
+/.idea
+main.py
+1.png
+chromedriver.exe
+debug.log
+form.html
+geckodriver.exe
+geckodriver.log
+image.png
+image2.png
